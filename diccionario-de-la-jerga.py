@@ -2,6 +2,8 @@
 
 # REAL DICCIONARIO DE LA JERGA ADOLESCENTE #
 
+print("Bienvenido al Real Diccionario de la Jerga Adolescente.\n\n > ¿Ha puesto Lolo un mensaje críptico en el grupo con una palabra que desconoces?\n\n > ¿Te ha llegado un WhatsApp de Mateu con un mensaje indescifrable?\n\nSi tu respuesta es 'sí', este diccionario podría ayudarte.\n")
+
 acronym_conversions = {
     "svyqm": "sí, va; y qué más",
     "uynmst": "una y no más, santo tomás",
@@ -61,19 +63,23 @@ acronym_conversions = {
     "ytvua": "¿y tú? venga, un abrazo (con ironía)"
 }
 
-acronym = input("Introduce un acrónimo: ")
+acronym = input("Por favor, introduce un acrónimo: ")
 
 while acronym in acronym_conversions:
+    print()
     print(acronym_conversions[acronym])
+    print()
     if acronym in acronym_conversions:
-        acronym = input("Introduce un acrónimo: ")
+        acronym = input("Por favor, introduce un acrónimo: ")
 
 while acronym not in acronym_conversions:
     acronym = input("El acrónimo introducido no existe, por favor vuelve a intentarlo: ")
     if acronym in acronym_conversions:
+        print()
         print(acronym_conversions[acronym])
+        print()
         while acronym in acronym_conversions:
-            acronym = input("Introduce un acrónimo: ")
+            acronym = input("Por favor, introduce un acrónimo: ")
 
       
 ###########
