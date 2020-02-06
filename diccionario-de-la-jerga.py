@@ -62,6 +62,7 @@ acronym_conversions = {
     "ntj": "no te jode (con ironía)",
     "ytvua": "¿y tú? venga, un abrazo (con ironía)",
     "sttda": "si te tuviera delante ahora",
+    "tqpae": "tendrás que preguntárselo a él/ ella/ ellos/ ellas",
 }
 
 acronym = input("Por favor, introduce un acrónimo: ")
