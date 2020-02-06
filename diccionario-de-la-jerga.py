@@ -66,19 +66,18 @@ acronym_conversions = {
     "nlvad": "no lo voy a decir",
 }
 
-acronym = input("Por favor, introduce un acrónimo: ")
+acronym = input("\nPor favor, introduce un acrónimo: ")
 
 while acronym in acronym_conversions:
-    print()
     print(acronym_conversions[acronym])
     print()
     if acronym in acronym_conversions:
-        acronym = input("Por favor, introduce un acrónimo: ")
+        acronym = input("\nPor favor, introduce un acrónimo: ")
 
 while acronym not in acronym_conversions:
-    acronym = input("El acrónimo introducido no existe, por favor vuelve a intentarlo: ")
+    acronym = input("\nEl acrónimo introducido no existe; por favor, vuelve a intentarlo: ")
+    print()
     if acronym in acronym_conversions:
-        print()
         print(acronym_conversions[acronym])
         print()
         while acronym in acronym_conversions:
