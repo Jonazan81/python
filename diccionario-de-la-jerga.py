@@ -60,7 +60,8 @@ acronym_conversions = {
     "ctcy": "cuál tú, cuál yo",
     "eheeeo": "el hombre elige, el esclavo obedece",
     "ntj": "no te jode (con ironía)",
-    "ytvua": "¿y tú? venga, un abrazo (con ironía)"
+    "ytvua": "¿y tú? venga, un abrazo (con ironía)",
+    "sttda": "si te tuviera delante ahora",
 }
 
 acronym = input("Por favor, introduce un acrónimo: ")
