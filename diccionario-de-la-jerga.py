@@ -57,6 +57,8 @@ acronym_conversions = {
     "yeldo": "y encima lo dirás orgulloso",
     "otemloysmt": "o tú eres muy listo o yo soy muy tonto",
     "ecaa": "esta conversación acaba aquí",
+    "ntlpj": "no te lo perdonaré jamás",
+    "nslpj": "no se lo perdonaré jamás",
     "ctcy": "cuál tú, cuál yo",
     "eheeeo": "el hombre elige, el esclavo obedece",
     "ntj": "no te jode (con ironía)",
@@ -65,6 +67,7 @@ acronym_conversions = {
     "tqpae": "tendrás que preguntárselo a él/ ella/ ellos/ ellas",
     "nlvad": "no lo voy a decir",
     "bpn": "bueno, pues nada",
+    "eppintg": "és per pixar i no treure gota",
 }
 
 acronym = input("Por favor, introduce un acrónimo: ")
