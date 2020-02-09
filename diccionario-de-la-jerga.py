@@ -4,6 +4,8 @@
 
 print("Bienvenido al Real Diccionario de la Jerga Adolescente.\n\n > ¿Ha puesto Lolo un mensaje críptico en el grupo con una palabra que desconoces?\n\n > ¿Te ha llegado un WhatsApp de Mateu con un mensaje indescifrable?\n\nSi tu respuesta es 'sí', este diccionario podría ayudarte.\n")
 
+print(" INSTRUCCIONES >>> Escribe el acrónimo que quieras descifrar enteramente en minúscula y sin puntuaciones de ningún tipo.\n")
+
 acronym_conversions = {
     "svyqm": "sí, va; y qué más",
     "uynmst": "una y no más, santo tomás",
@@ -15,6 +17,8 @@ acronym_conversions = {
     "bpt": "bien por ti",
     "bpe": "bien por él (ella/ ellos/ ellas)",
     "bj": "bien jugado",
+    "wp": "well played",
+    "wps": "well played, sir",
     "accllssm": "a cada cerdo le llega su san martín",
     "mlvadotlplalt": "me lo vas a decir o te lo piensas llevar a la tumba",
     "snldr": "si no lo dices revientas",
@@ -23,6 +27,7 @@ acronym_conversions = {
     "escyhqr": "es su cultura y hay que respetarla",
     "eemvqet": "esto es más viejo que el tango",
     "emdyeqsmr": "es mi decisión y espero que se me respete",
+    "amp": "aunque me pese",
     "atp": "aunque te pese",
     "alp": "aunque le(s) pese",
     "mg": "muy gracioso (con ironía)",
@@ -68,6 +73,14 @@ acronym_conversions = {
     "nlvad": "no lo voy a decir",
     "bpn": "bueno, pues nada",
     "eppintg": "és per pixar i no treure gota",
+    "leepade": "los errores están para aprender de ellos",
+    "pewale": "petarle el whatsapp a la elena",
+    "cocqeymls": "cuéntame otro cuento que ése ya me lo sé",
+    "seg": "soñar es gratis",
+    "hqsuhdlgppde": "hay que ser un hijo de la gran puta para decir eso",
+    "qpelve": "qué puta es la vida, eh",
+    "mgpc": "muy gracioso, pero correcto",
+    
 }
 
 acronym = input("Por favor, introduce un acrónimo: ")
