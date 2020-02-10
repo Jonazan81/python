@@ -1,4 +1,4 @@
-### TRAFADUCTOR ###
+### TRAFADUCTORAFA ###
 
 def translate(phrase):
     translation = ""
