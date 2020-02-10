@@ -1,4 +1,6 @@
-### TRAFADUCTORAFA ###
+###########
+
+# TRAFADUCTORAFA #
 
 def translate(phrase):
     translation = ""
@@ -13,3 +15,5 @@ def translate(phrase):
     return translation
 
 print(translate(input("Introduce una frase que contenga la letra 'r': ")))
+
+###########
