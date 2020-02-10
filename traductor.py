@@ -1,6 +1,6 @@
 ###########
 
-# TRAFADUCTORAFA #
+# Trafaductorafa
 
 def translate(phrase):
     translation = ""
