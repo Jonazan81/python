@@ -3,8 +3,11 @@
 def translate(phrase):
     translation = ""
     for letter in phrase:
-        if letter in "r":
-            translation = translation + "rafa"
+        if letter.lower() in "r":
+            if letter.isupper():
+                translation = translation + "Rafa"
+            else:
+                translation = translation + "rafa"
         else:
             translation = translation + letter
     return translation
