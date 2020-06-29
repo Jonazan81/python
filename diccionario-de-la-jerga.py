@@ -21,6 +21,8 @@ acronym_conversions = {
     "wps": "well played, sir",
     "accllssm": "a cada cerdo le llega su san martín",
     "mlvadotlplalt": "me lo vas a decir o te lo piensas llevar a la tumba",
+    "tldontld": "te lo digo o no te lo digo",
+    "tlpontlp": "te lo paso o no te lo paso",
     "snldr": "si no lo dices revientas",
     "css": "correcto, sí señor",
     "ntnpnnqdar": "no tengo nada positivo ni negativo que decir al respecto",
@@ -80,6 +82,12 @@ acronym_conversions = {
     "hqsuhdlgppde": "hay que ser un hijo de la gran puta para decir eso",
     "qpelve": "qué puta es la vida, eh",
     "mgpc": "muy gracioso, pero correcto",
+    "nedmrlc": "nunca está de más recordar los clásicos",
+    "attlvad": "a ti te lo voy a decir (con ironía)",
+    "addo": "a diferencia de otros",
+    "csnqnmc": "cómo se nota que no me conoces",
+    "fp": "fotopolla",
+    "nsum": "no sea usted malpensado",
     
 }
 
